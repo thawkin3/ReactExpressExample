@@ -25,6 +25,7 @@ class App extends Component {
                 {this.state.users.map(user =>
                     <div key={user.id}>{user.username}</div>
                 )}
+                <p>This is a new change.</p>
             </div>
         );
     }
